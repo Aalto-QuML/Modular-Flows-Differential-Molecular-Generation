@@ -4,6 +4,15 @@
 
 # Problem of Molecular Generation
 
+A key challenge of molecular generative models is to be able to generate valid molecules, according to various criteria for molecular validity or feasibility. It is a common practice to use external chemical software as rejection oracles to reduce or exclude invalid molecules, or do validity checks as part of autoregressive generation [1,2,3] . An important open question has been whether generative models can learn to achieve high generative validity *intrinsically*, i.e., without being aided by oracles or performing additional checks.
+
+
+
+# Continuous Normalizing Flows
+
+<p align="center">
+  <img src="https://github.com/yogeshverma1998/Modular-Flows-Differential-Molecular-Generation/blob/main/nf_website.png" />
+</p>
 
 
 
